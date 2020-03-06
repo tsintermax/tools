@@ -1,0 +1,1 @@
+bq ls| grep build | xargs -n 1 bq rm -r -f
