@@ -1,1 +1,1 @@
-bq ls| grep build | xargs -n 1 bq rm -r -f
+bq ls| grep [CONDITION] | xargs -n 1 bq rm -r -f
